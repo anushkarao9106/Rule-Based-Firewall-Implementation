@@ -1,6 +1,6 @@
 # Hybrid Rule-Based Firewall
 
-## 📌 About
+## About
 
 This project is a simple firewall simulation that filters network requests using both **URLs and IP addresses**.
 
@@ -10,7 +10,7 @@ The main aim was to understand how firewall systems work at a basic level. We al
 
 ---
 
-## 🧠 How it works
+## How it works
 
 1. User enters a URL or IP
 2. If it’s a URL → DNS resolution is performed
@@ -26,7 +26,7 @@ The main aim was to understand how firewall systems work at a basic level. We al
 
 ---
 
-## 🛠️ Tech Used
+## Tech Used
 
 * Python
 * Basic Networking Concepts (DNS, IP, ICMP)
@@ -36,9 +36,9 @@ The main aim was to understand how firewall systems work at a basic level. We al
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
-### ▶️ Run using Command Line (CLI)
+### Run using Command Line (CLI)
 
 ```bash id="cli123"
 git clone https://github.com/your-username/firewall-project.git
@@ -48,7 +48,7 @@ python main.py
 
 ---
 
-### 🌐 Run with UI (Recommended)
+### Run with UI (Recommended)
 
 ```bash id="ui123"
 python app.py
@@ -56,11 +56,11 @@ python app.py
 
 Then open the local server link shown in the terminal.
 
-👉 This version provides a **simple UI/UX interface** to enter URL/IP and view results more easily.
+This version provides a **simple UI/UX interface** to enter URL/IP and view results more easily.
 
 ---
 
-## 📂 Files
+## Files
 
 * `main.py` → Core firewall logic (CLI version)
 * `app.py` → Web application for UI-based interaction
@@ -70,7 +70,7 @@ Then open the local server link shown in the terminal.
 
 ---
 
-## 🧾 Blacklist
+## Blacklist
 
 The blacklist is customizable.
 
@@ -90,7 +90,7 @@ If the input matches anything in this file, it will be blocked.
 
 ---
 
-## 📁 Log File
+## Log File
 
 `log.txt` is a sample file showing how logs are stored.
 
@@ -105,7 +105,7 @@ Each entry includes:
 
 ---
 
-## 📊 Output
+## Output
 
 When you run the program, it shows:
 
@@ -118,7 +118,7 @@ If you use the UI (`app.py`), the results are displayed in a cleaner and more in
 
 ---
 
-## 🔍 Using Wireshark
+## Using Wireshark
 
 You can open Wireshark while running this project to observe:
 
@@ -129,6 +129,6 @@ This helps connect the code with real network behavior.
 
 ---
 
-## 📌 Final Note
+## Final Note
 
 This project is mainly for learning purposes and gives a basic idea of how firewall systems work using simple rule-based filtering.
